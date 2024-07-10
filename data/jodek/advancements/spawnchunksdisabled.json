@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:structure_void"
+      },
+      "title": "Spawn Chunks Disabled",
+      "description": "Spawn chunks are disabled",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "jodek:utility",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+
